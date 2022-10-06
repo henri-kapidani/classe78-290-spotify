@@ -1,0 +1,15 @@
+.sidebar {
+	background-color: salmon;
+}
+
+.contents {
+	background-color: gold;
+}
+
+.controls {
+	background-color: crimson;
+}
+
+.overlay {
+	background-color: rgba(0, 0, 0, .5);
+}
