@@ -65,7 +65,8 @@ body {
 .sidebar {
 	flex: 0 0 var(--width-sidebar);
 	height: calc(100vh - var(--heigth-controls));
-	/* position: relative; */ /* non serve dato che c'è flex */
+	/* position: relative; */ /* non serve dato che sono flex-items */
+	overflow-y: hidden;
 	z-index: 20;
 }
 
@@ -79,7 +80,7 @@ body {
 .controls {
 	flex: 0 0 100%;
 	height: var(--heigth-controls);
-	/* position: relative; */ /* non serve dato che c'è flex */
+	/* position: relative; */ /* non serve dato che sono flex-items */
 	z-index: 20;
 }
 
